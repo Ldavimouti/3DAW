@@ -1,3 +1,0 @@
-1|multipla|Qual a cor do sol ?|Amarelo;Verde;Azul;Bege;Vermelho|0
-2|multipla|Quem é o Presidente do Brasil?|Bolsonaro;Castelo Branco;Renato Aragão;Joelma;Lula|4
-3|texto|Quanto é 34 + 35 ?|69
