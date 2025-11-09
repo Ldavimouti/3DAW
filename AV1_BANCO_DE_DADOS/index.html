@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD de Textos e Perguntas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CRUD com JavaScript (localStorage)</h1>
+
+  <section id="texto-section">
+    <h2>Gerenciar Textos</h2>
+    <input type="text" id="textoInput" placeholder="Digite o texto">
+    <button onclick="criarTexto()">Criar Texto</button>
+
+    <ul id="listaTextos"></ul>
+  </section>
+
+  <section id="pergunta-section">
+    <h2>Gerenciar Perguntas</h2>
+    <input type="text" id="perguntaInput" placeholder="Digite a pergunta">
+    <button onclick="criarPergunta()">Criar Pergunta</button>
+
+    <ul id="listaPerguntas"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
